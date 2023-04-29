@@ -1,108 +1,203 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Runescape Quiz  - Milestone Project I
 
-Welcome USER_NAME,
+![Runescape Quiz Homepage Screenshot](/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View Live Project Website](https://imransal.github.io/RunescapeQuiz/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Introduction
 
-## Gitpod Reminders
+Welcome to The Runescape Quiz, my second milestone project. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The goal of the Runescape Quiz is to expand my knowledge and build on the fundamentals I learned from my first milestone project, GymBox which used HTML & CSS. This project will hopefully be able to display some of my fundamental understanding in Javascript.
 
-`python3 -m http.server`
+Runescape was one of my childhood favorite games, this is where a large part of the inspiration comes from. Runescape is such a vast game and still has a popular fan base after 22 years of it running.
 
-A blue button should appear to click: _Make Public_,
+I document the steps I took to plan and create this website as well as where I got my inspiration from and sources of information.
 
-Another blue button should appear to click: _Open Browser_.
+## UX - User Experience Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To help with design, I took inspiration from the Runescape website and theme. 
 
-A blue button should appear to click: _Make Public_,
+The planning of the project is broken into 5 planes,
 
-Another blue button should appear to click: _Open Browser_.
+ - The Strategy Plane
+ - The Scope Plane
+ - The Structure Plane
+ - The Skeleton Plane
+ - The Surface Plane
+ 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Strategy Plane
 
-To log into the Heroku toolbelt CLI:
+The objective of this project is to deliver a visually appealing and easy to use Quiz App to the end users, that is fun & interactive with the ability to track their high scores and a leaderboard.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Creator Goals
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ - I want the Quiz App to have a similar color scheme and typography as Runescape so that it is relatable to fans of the game.
+ - I want the Quiz App to be responsive accross different resolutions for all devices.
 
-------
+After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to myfriends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### User Stories
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### First Time Visitor Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - As a first-time visitor, I want to be able to navigate my way easily throughout the website.
+ - As a first-time visitor, I want to learn things I didn't know about Runescape.
+ - As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
+ - As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
+ - As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Returning Visitor Goals
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ - As a returning visitor, I want my scores to be saved and track my score on a leaderboard.
+ 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Types of expected visitor goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Fans of the game, Runescape.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Someone who may be interested in playing Runescape.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I decided to create a Runescape quiz application due to my personal experience with the game and time as a player. I have a genuine passion for this game, which has given me valuable insight into what users might be seeking when using my quiz application. These insights have been essential in shaping my User Stories.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+My quiz application is designed to provide an enjoyable and straightforward experience for users while offering them valuable information about the game. I aim to present the questions in a clear and concise manner, without overwhelming the users with too much information at once.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Since a significant portion of the target audience is likely to access the quiz application using their mobile devices, it is crucial to create a responsive design. This will ensure that the quiz runs smoothly on all devices, providing a seamless experience for all users.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Scope Plane
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+To achieve the desired user and business goals for my Runescape quiz app, the following features will be included:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Simple homepage will be designed with a clean and straightforward layout that includes a navigation menu at the top with a Start Game and a Leaderboard button.
+- Quiz page with include a navigation bar, a start game button, a question count and score tally and quiz questions and answer buttons with a quit game button.
+- End of quiz page will have a form to submit high scores and control buttons.
+- Instructions page will have a navigation bar and instructions on how to play the quiz.
+- Leaderboard page will have a navigation bar and a list of the top 5 high scores.
+ 
+## Structure Plane
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+For the Runescape quiz app, the design will focus on a theme that is relatable to the Runescape game. The color scheme will feature the classic yellow and black of the Runescape logo, with white used as a contrasting color. The font selection will include a modern and easy-to-read font, along with the bold and fun fonts for H1 headers.
 
-------
+To keep the quiz easy to navigate for users, the website will be divided into multiple pages, including a rules page, a game page, and a high scores page. Each page will feature a responsive navbar, with the relevant content centered below. The quiz itself will have a responsive layout with a question, and four answer buttons to makie it straight forward for the user. The final quiz page will have navigation buttons to let the user know how to move on from the page.
 
-## FAQ about the uptime script
+## Skeleton Plane
 
-**Why have you added this script?**
+Here is a link to the Wireframes I designed.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- [Homepage](https://ibb.co/Jyk3WKb)
+- [Quiz Page](https://ibb.co/QfCd3w7)
+- [Instructions Page](https://ibb.co/M690QrS)
+- [Leaderboard](https://ibb.co/hYtRsnb)
 
-**How will this affect me?**
+### Homepage Differences 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Quiz Page Differences
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Instructions Page Differences
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Leaderboard Page Differences
 
-**So….?**
+## Surface Plane 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Features
 
-**Can I opt out?**
+## Technologies Used
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+ - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used to build and structure content.
+ - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used for styling content.
+ - [Bootstrap](https://getbootstrap.com/)
+    - Used as the main framework.
+ - [Font Awesome](https://fontawesome.com/)
+    - Used for icons and Social Media icons.
+ - [JavaScript](https://www.javascript.com/) & [jQuery](https://jquery.com/)
+    - Used for interactiveness to build the Quiz.
+ - [Google Fonts](https://fonts.google.com/)
+   - Used to import fonts from Google.
+ - [Balsamiq](https://balsamiq.com/)
+    - Used to build wireframes.
+ - [Img BB](https://imgbb.com/)
+    - Used to upload wireframe images for viewable links.
+ - [GitHub](https://github.com/)
+    - Used to save the and store all the code.
+ - [Git](https://git-scm.com/)
+    - Used to commit and push all my code to GitHub by using the terminal in Gitpod.
+ - [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+ - [Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+   - Used to edit images and documents.
+ - [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word)
+   - Used to create user story testing documentation.
+ - [Google Developer Tools](https://developer.chrome.com/docs/devtools/)
+    - Used for testing changes throughout the project, finding bugs, and testing responsiveness for different size devices.
+ - [Youtube](https://www.youtube.com)
+    - Used for research.
+ - [W3C Markup Validator](https://validator.w3.org/)
+    - Used to validate HTML code on all pages.
+ - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - Used to validate CSS code.
+ - [Free Formatter](https://www.freeformatter.com/)
+    - Used to format all HTML code.
+ - [Clean CSS](https://www.cleancss.com/)
+    - Used to format and clean my CSS code.
+ - [Grammarly](https://app.grammarly.com/)
+    - Used to check spelling, grammar, and clarity of website and README.
+ 
+## Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+In this section, I will test the user stories from the User Experience Design section in this README.md.
 
-**Anything more?**
+### User Story Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+### Bugs and Fixes
 
-Happy coding!
+
+## W3C Validation
+
+## Deployment
+
+### How to deploy a GitHub Repository using GitHub Pages
+
+1. Go to your Repository section in GitHub and select the Repository you want to deploy.
+2. Click on the Settings link on the top horizontal Menu.
+3. Now on the settings page, find the Pages link, about halfway down, on the menu on the left-hand side.
+4. Under Branch, select the dropdown that says None, select Main, and then click save. 
+5. Wait for the page to refresh. Once the page has refreshed you can scroll back up and on the GitHub Pages Section you should see a message that says Your site is live at (Link to Live GitHub Pages Website) The live site does not usually publish straight away and sometimes takes a few minutes to become live.
+
+### How to Fork the GitHub Repository
+
+Forking a GitHub repository allows you to make a copy of the original repository that you can make changes to without affecting the original repository.
+
+1. Go to the GitHub repository you wish to make a Fork of.
+2. At the top of the page, opposite the repository name there is a button that says Fork.
+3. Now you have a copy of the repository in your GitHub account. You can find it in your repositories section.
+
+### How to make a Local Clone of  your GitHub Repository
+
+1. Go to the GitHub repository you wish to make a Local Clone of.
+2. Click on the Code button.
+3. Copy the link that is displayed on the drop-down.
+4. Open GitPod and choose the directory where you would like the clone to be created
+5. Now go to the Terminal in GitPod and type in 'git clone'.
+6. Press Enter and your cloned repository will be created.
+
+## Credits
+
+### Code
+
+ - [Bootstrap](https://getbootstrap.com/)
+   - Used as the framework for the project.
+
+## Thank You
+
+I would like to thank my course mentor Harry Dhillon and my course tutor Nigel Edwards for their support and guidance throughout this project.
+
+I would like to thank anyone who has made it to the bottom of this very long README file. I have learned a lot during the course of this project and I will be learning and implementing a lot more going forwards on this journey to becoming a full-stack developer.
+
+I hope you have a wonderful day or night wherever, whoever you are! 
+
+Happy Coding :-)
