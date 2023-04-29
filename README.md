@@ -33,7 +33,7 @@ The objective of this project is to deliver a visually appealing and easy to use
 
 ### Creator Goals
 
- - I want the Quiz App to have a similar color scheme and typography as Runescape so that it is relatable to fans of the game.
+ - I want the Quiz App to have a similar color scheme and typography, and to do so I have chosen the font-family: 'Rakkas' using google fonts.
  - I want the Quiz App to be responsive accross different resolutions for all devices.
 
 After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to myfriends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.

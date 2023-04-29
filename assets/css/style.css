@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    font-family: 'Rakkas', cursive;
+    color: #ffffff;
+}
+
+/* ------------------------Start Nav Bar------------------------ */
+
+.navbar {
+    background-color: black;
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: goldenrod;
+}
+
+.nav-link {
+    color: #b3b3b3;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 5px;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+/* ------------------------End Nav Bar------------------------ */
+
+.btn {
+    display:block;
+    justify-content: center;
+}
+
+#quiz-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    background: goldenrod;
+    display: block;
+}
+
+#leaderboard-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    background: goldenrod;
+    display: block;
+}
