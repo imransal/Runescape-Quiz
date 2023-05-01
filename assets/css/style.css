@@ -67,6 +67,19 @@ body {
     display: block;
 }
 
+#save-btn {
+        font-size: 1.1rem;
+        padding: 1.2rem 0;
+        width: 15rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        color: black;
+        background: goldenrod;
+        display: block;
+}
+
 /* ------------------------End Buttons------------------------ */
 
 /* ------------------------Start Answer Container CSS------------------------ */
@@ -151,3 +164,19 @@ body {
     font-size: 2rem;
 }
 
+
+/* ------------------------Start End Page CSS------------------------ */
+
+
+input {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Rakkas', sans-serif;
+    border-radius: 3px;
+    border: none;
+}
+
+/* ------------------------End Quiz Box CSS------------------------ */
