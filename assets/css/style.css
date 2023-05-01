@@ -35,6 +35,7 @@ body {
 }
 /* ------------------------End Nav Bar------------------------ */
 
+/* ------------------------Start Buttons------------------------ */
 .btn {
     display:block;
     justify-content: center;
@@ -65,3 +66,64 @@ body {
     background: goldenrod;
     display: block;
 }
+
+/* ------------------------End Buttons------------------------ */
+
+/* ------------------------Start Quiz.html CSS------------------------ */
+
+.answer-container {
+
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 3px;
+    background-color: goldenrod;
+    font-size: 2rem;
+    min-width: 80rem;
+}
+
+.answer-container:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.answer-prefix {
+    font-family: 'Rakkas', cursive;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.answer-text {
+    font-family: 'Rakkas', cursive;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .answer-prefix {
+        font-family: 'Rakkas', cursive;
+        font-size: 1.5rem;
+        margin: 0;
+        text-align: left;
+        padding: 1.2rem;
+   }
+}   
+
+@media only screen and (max-width: 768px) {
+    .answer-text {
+        font-family: 'Rakkas', cursive;
+        font-size: 1.2rem;
+        margin: 0;
+        text-align: left;
+        padding: 1.5rem;
+   }
+}   

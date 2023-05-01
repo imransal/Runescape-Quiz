@@ -20,47 +20,76 @@
       <div class="collapse navbar-collapse navbar justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="additional-pages/instructions.html">Instructions</a>
+            <a class="nav-link" href="/additional-pages/instructions.html">Instructions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="additional-pages/leaderboard.html">Leaderboard</a>
+            <a class="nav-link" href="/additional-pages/leaderboard.html">Leaderboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="additional-pages/quiz.html">Start Quiz</a>
+            <a class="nav-link active" aria-current="page" href="/additional-pages/quiz.html">Start Quiz</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>   
 <!----------------------------End Nav Bar---------------------------->
-<!----------------------------Start Heading--------------------------->
-<section id="home-heading">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                <h1 class="runescape-heading">Runescape Quiz</h1>
-            </div>
-        </div>            
-                        <div class="row justify-content-center">
-                            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                                <img class="runescape-hero" src="assets/images/runescape-scene.jpg" alt="Beautiful Runescape Scenic Screenshot">
-                            </div>
+<!----------------------------Start Quiz--------------------------->
+<div id="quiz-container" class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+            <div id="quiz" class="justify-content-center">
+
+                <div id="quiz-box">
+
+                    <div class="quiz-item">
+                        <p id="progress-text" class="quiz-content">
+                            Question
+                        </p>
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
                         </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                                        <a href="/game.html" class="btn btn-warning" id="quiz-btn">Start Quiz <i class="fa-solid fa-play"></i></a>
-                                        <a href="/highscores.html" class="btn btn-warning" id="leaderboard-btn">High Scores <i class="fa-solid fa-trophy"></i></a>
-                                    </div>
-                                </div>
+                    </div>
 
+                    <div class="quiz-item">
+                        <p class="quiz-content quiz-score"> 
+                            Score 
+                            <span id="score" class="quiz-main-text">
+                            0 
+                            </span>
+                        </p>
+                        
+                        
+                    </div>
 
+                    <div id="question">
+                        What is the answer to this question
+                    </div>
 
+                    <div class="answer-container">
+                        <p class="answer-prefix"> A </p>
+                        <p class="answer-text" data-number="1"> Answer 1</p>
+                    </div>
+                    <div  class="answer-container">
+                        <p class="answer-prefix"> B </p>
+                        <p class="answer-text" data-number="2"> Answer 2</p>
+                    </div>
+                    <div  class="answer-container">
+                        <p class="answer-prefix"> C </p>
+                        <p class="answer-text" data-number="3"> Answer 3</p>
+                    </div>
+                    <div  class="answer-container">
+                        <p class="answer-prefix"> D </p>
+                        <p class="answer-text" data-number="4"> Answer 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</section>
+</div>
 <!----------------------------Scripts---------------------------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+<script src="/assets/js/quiz,js"></script>
+</body>
 </html>
