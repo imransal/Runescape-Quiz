@@ -69,7 +69,7 @@ body {
 
 /* ------------------------End Buttons------------------------ */
 
-/* ------------------------Start Quiz.html CSS------------------------ */
+/* ------------------------Start Answer Container CSS------------------------ */
 
 .answer-container {
 
@@ -127,3 +127,27 @@ body {
         padding: 1.5rem;
    }
 }   
+
+.correct {
+    background-color: #228B22;
+}
+
+.incorrect {
+    background-color: #8B0000;
+}
+
+/* ------------------------End Answer Container CSS------------------------ */
+
+/* ------------------------Start Quiz Box CSS------------------------ */
+#progress-text {
+    float: left;
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+.quiz-score {
+    float: right;
+    color: goldenrod;
+    font-size: 2rem;
+}
+
