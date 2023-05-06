@@ -49,6 +49,10 @@ body {
     background: goldenrod;
     display: block;
 }
+
+i {
+    padding-left: 0.5rem;
+}
 /* ------------------------End Buttons------------------------ */
 
 /* ------------------------Start Answer Container CSS------------------------ */
