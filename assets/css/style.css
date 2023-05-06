@@ -47,6 +47,20 @@ body {
     padding: 1.2rem 0;
     width: 15rem;
     text-align: center;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: black;
+    background: goldenrod;
+    display: inline-block;
+}
+
+.leaderboard-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 0;
+    width: 15rem;
+    text-align: center;
     margin: auto;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
@@ -55,6 +69,22 @@ body {
     background: goldenrod;
     display: block;
 }
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        font-size: 1.1rem;
+        padding: 1.2rem 0;
+        width: 15rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        color: black;
+        background: goldenrod;
+        display: block;
+   }
+}   
 
 i {
     padding-left: 0.5rem;
