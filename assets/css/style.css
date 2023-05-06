@@ -67,7 +67,7 @@ body {
     display: block;
 }
 
-#save-btn {
+#save-score {
         font-size: 1.1rem;
         padding: 1.2rem 0;
         width: 15rem;
@@ -92,6 +92,20 @@ body {
         background: goldenrod;
         display: block;
 }
+
+#home-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    background: goldenrod;
+    display: block;
+}
+
 
 /* ------------------------End Buttons------------------------ */
 

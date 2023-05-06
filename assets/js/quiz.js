@@ -116,7 +116,7 @@ let getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem('recentScore', score);
 
-        return window.location.assign(`end-page.html`);
+        return window.location.assign(`quiz-end.html`);
     }
 
     questionCounter++;
@@ -146,7 +146,7 @@ answerText.forEach(choice => {
 
         acceptingAnswer = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 

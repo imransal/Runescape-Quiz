@@ -37,7 +37,7 @@
   </nav>   
 <!----------------------------End Nav Bar---------------------------->
 <!----------------------------Start Quiz--------------------------->
-<div id="quiz-container" class="container-fluid">
+<div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-12 col-lg-6 text-center">
             <div id="quiz" class="justify-content-center">
@@ -45,26 +45,25 @@
                 <div id="quiz-box">
 
                     <div class="quiz-item">
-                        <p id="progress-text">
+                        <h1 id="progress-text" class="quiz-content">
                             Question
-                        </p>
-                        <div id="progress-bar">
-                            <div id="progress-bar-full"></div>
-                        </div>
+                        </h1>
                     </div>
 
                     <div class="quiz-item">
-                        <p class="quiz-score"> 
+                        <p class="quiz-content quiz-score"> 
                             Score 
                             <span id="score" class="quiz-main-text">
                             0 
                             </span>
-                        </p>  
+                        </p>
+                        
+                        
                     </div>
 
-                    <h1 id="question">
+                    <div id="question">
                         What is the answer to this question
-                    </h1>
+                    </div>
 
                     <div class="answer-container">
                         <p class="answer-prefix"> A </p>

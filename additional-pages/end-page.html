@@ -38,30 +38,29 @@
 <!----------------------------End Nav Bar---------------------------->
 
 <!----------------------------Start End Page Body---------------------------->
-
 <div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-            <div id="end-page-container">
-                <h1 class="sub-heading">Your Score: <span id="quiz-finalscore"> 0 </span> </h1>
-                <form id="endpage-form">
-                    <h2 class="small-header"> Enter your name below to save your score to the Leaderboard!</h2>
-                    <input type="text" name="name" id="username" placeholder="Enter your name!">
-                </form>
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                        <button class="btn btn-warning" id="save-btn" type="submit" 
-                        onclick="saveHighscore(event)" disabled>Save!</button>
-                        <a href="/additional-pages/quiz.html" class="btn btn-warning" id="quiz-btn">Start Over <i class="fa-solid fa-play"></i></a>
-                        <a href="/additional-pages/leaderboard.html" class="btn btn-warning" id="leaderboard-btn">Leaderboard <i class="fa-solid fa-trophy"></i></a>
-                        <a href="/index.html" class="btn btn-warning" id="leaderboard-btn">Home <i class="fa-solid fa-home"></i></a>
-                    </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                <div id="end-page-container">
+                    <h1 class="sub-heading">Your Score: <span id="quiz-finalscore"> 0 </span> </h1>
+                    <form id="endpage-form">
+                        <h2 class="mini-heading"> Enter a name below to save your score!</h2>
+                        <input type="text" name="name" id="username" placeholder="Enter your name!">
+                        <button class="btn btn-warning" id="save-score" type="submit" 
+                        onclick="saveHighscore(event)" disabled>
+                        Save!
+                        </button>
+                    </form>
+                    <a class="btn btn-warning" id="leaderboard-btn" href="leaderboard.html"> Leaderboard</a>
+                    <a class="btn btn-warning" id="quiz-btn" href="/additional-pages/quiz.html"> Play Again!</a>
+                    <a class="btn btn-warning" id="home-btn" href="/index.html"> Home</a>
                 </div>
-
             </div>
         </div>
     </div>
-</div>
+
+<!----------------------------Start Scripts---------------------------->
 <script src="/assets/js/end.js"></script>
 </body>
 </html>
+

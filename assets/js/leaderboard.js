@@ -3,5 +3,5 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
 highScoresList.innerHTML = 
 highScores.map(score => {
-    return `<li class="leaderboard">${score.name} - ${score.score}</li>`
-})
+    return `<li class="list-content">${score.name} - ${score.score}</li>`
+}).join('')
