@@ -183,12 +183,18 @@ body {
     float: left;
     color: goldenrod;
     font-size: 2rem;
+    display: block;
 }
 
 .quiz-score {
     float: right;
     color: goldenrod;
     font-size: 2rem;
+    display: block;
+}
+
+#question {
+    display: block;
 }
 
 
