@@ -206,3 +206,17 @@ input {
     border: none;
 }
 
+/* ------------------------Start Leaderboard CSS------------------------ */
+
+.leaderboardList {
+    list-style: none;
+    font-family: 'Rakkas', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5px;
+    color: goldenrod;
+}
+
+#leaderboard {
+    padding: 0;
+}

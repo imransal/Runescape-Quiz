@@ -14,12 +14,12 @@ username.addEventListener(`keyup`, () => {
     saveScore.disabled = !username.value;
 });
 // -----------------Save button should save user score and name and save user name to local storage and reset page----------------- //
-let saveHighscore = e => {
+let saveHighscore = (e) => {
     e.preventDefault();
 
     const score = {
         score: recentScore,
-        name: username.value
+        name: username.value,
     };
 
     highScores.push(score);
@@ -32,6 +32,4 @@ let saveHighscore = e => {
 
     localStorage.setItem(`highScores`, JSON.stringify(highScores));
     window.location.assign(`/`);
-
-
 };
