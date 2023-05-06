@@ -148,10 +148,13 @@ i {
 }
 
 #question {
-    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+    display: flex;
+    width: 100%;
+    
 }
-
 
 /* ------------------------Start End Page CSS------------------------ */
 

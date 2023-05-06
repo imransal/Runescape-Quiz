@@ -12,6 +12,7 @@ let availableQuestions = [];
 // -----------------End Global Var----------------- //
 
 // -----------------Start Questions----------------- //
+
 let questions = [
     {
         question: "What year was Runescape 2 created?",
