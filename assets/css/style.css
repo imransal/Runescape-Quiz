@@ -49,7 +49,7 @@ body {
     text-align: center;
     margin: auto;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     text-decoration: none;
     color: black;
     background: goldenrod;
@@ -137,16 +137,19 @@ i {
     float: left;
     color: goldenrod;
     font-size: 2rem;
+    padding: 1rem;
 }
 
 .quiz-score {
     float: right;
     color: goldenrod;
     font-size: 2rem;
+    padding: 1rem;
 }
 
 #question {
     padding: 3rem;
+    text-align: center;
 }
 
 
