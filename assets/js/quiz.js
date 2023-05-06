@@ -3,7 +3,6 @@ const question = document.querySelector(`#question`);
 const answerText = Array.from(document.querySelectorAll(`.answer-text`));
 const progressText = document.querySelector(`#progress-text`);
 const scoreText = document.querySelector(`#score`);
-const answerContainers = document.querySelectorAll('.answer-container');
 
 let currentQuestion = {};
 let acceptingAnswer = true;
@@ -100,12 +99,6 @@ let questions = [
 const scorePoints = 100;
 const maxQuestions = 10;
 
-// Shuffle the answer containers using the Fisher-Yates shuffle algorithm
-for (let i = answerContainers.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    answerContainers[i].parentNode.insertBefore(answerContainers[j], answerContainers[i]);
-}
-
 // -----------------End Questions----------------- //
 
 // -----------------Start Quiz----------------- //
@@ -119,7 +112,7 @@ let startQuiz = () => {
 
 // -----------------End Start Quiz----------------- //
 
-// -----------------Track Answers & End Quiz----------------- //
+// -----------------Track Answers----------------- //
 
 let getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
@@ -127,13 +120,18 @@ let getNewQuestion = () => {
 
         return window.location.assign(`end-page.html`);
     }
+// -----------------Question Counter----------------- //
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${maxQuestions}`;
 
+// -----------------Keeps current question & randomizes questions----------------- //
+
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
+
+// -----------------Choices----------------- //
 
     answerText.forEach((choice) => {
         const number = choice.dataset.number;
@@ -147,7 +145,7 @@ let getNewQuestion = () => {
 
 // -----------------End Track Answers & End Quiz----------------- //
 
-// -----------------Start Correct / Incorrect Answer Logic----------------- //
+// -----------------Checks if answers are correct or incorrect----------------- //
 
 answerText.forEach((choice) => {
     choice.addEventListener("click", (e) => {
@@ -164,7 +162,7 @@ answerText.forEach((choice) => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-
+// -----------------Timeout function----------------- //
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
@@ -174,7 +172,7 @@ answerText.forEach((choice) => {
 
 // -----------------End Correct / Incorrect Answer Logic----------------- //
 
-// -----------------Start Score Tally----------------- //
+// -----------------Increases score if correct----------------- //
 
 let incrementScore = (num) => {
     score += num;
