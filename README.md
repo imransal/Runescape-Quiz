@@ -93,15 +93,27 @@ Here is a link to the Wireframes I designed.
 
 ### Homepage Differences 
 
+The Homepage wireframe design was met, the only difference here is that instead of using a gameplay screenshot, a game art was used.
+
 ### Quiz Page Differences
+
+The Quiz Page wireframe design was met, the only difference is that the question does not have a border and instead a h2 header in its own div.
 
 ### Instructions Page Differences
 
 ### Leaderboard Page Differences
 
+The Leaderboard Page wireframe design was met, the only differences is that there is no border around the leaderboard and I added buttons to start the quiz or return to the homepage.
+
 ## Surface Plane 
 
-### Features
+**Project Features**
+
+The Runescape Javascript quiz project includes a responsive navigation bar, a dark theme with a hero image, and feedback colors for selected answers. Users can save their high score with a name, which is stored in local storage and can be viewed on the High Score page. The score updates with every answer selected, with correct answers awarding 100 points and a maximum of 1000 available at the end. The navigation bar is present across all pages except for the Quiz page and changes to a burger bar menu at 992px.
+
+### Features to upgrade this project in the future
+
+For future features, I want to consider adding a hint system to assist users in answering questions. I want to consider implementing social media sharing options to allow users to share their scores with friends and on different platforms and also a timer for each question.
 
 ## Technologies Used
 
@@ -152,8 +164,19 @@ In this section, I will test the user stories from the User Experience Design se
 
 ### User Story Testing
 
+#### As a first-time visitor, I want to be able to navigate my way easily throughout the website.
 
-### Bugs and Fixes
+
+
+#### As a first-time visitor, I want to learn things I didn't know about Runescape.
+
+#### As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
+
+#### As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
+
+#### As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
+
+### Known Bugs and Fixes
 
 
 ## W3C Validation
