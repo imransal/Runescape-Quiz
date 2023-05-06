@@ -11,7 +11,7 @@ body {
     padding: 0;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+.navbar-nav .nav-link.active {
     color: goldenrod;
 }
 
@@ -32,6 +32,12 @@ body {
 .navbar-toggler-icon {
     color: #ffffff;
     font-size: 1.3rem;
+    background-color: goldenrod;
+    border-radius: 8px;
+}
+
+.toggler-div {
+    padding: 1rem;
 }
 /* ------------------------End Nav Bar------------------------ */
 
