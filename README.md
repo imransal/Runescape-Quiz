@@ -182,27 +182,34 @@ In this section, I will test the user stories from the User Experience Design se
 
 #### 1. As a first-time visitor, I want to be able to navigate my way easily throughout the website.
 
-![User Story 1 Screenshot](https://i.ibb.co/9HQ230k/user-story-1.jpg)
-
 As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand and navigate.
+
+![User Story 1 Screenshot](https://i.ibb.co/9HQ230k/user-story-1.jpg)
 
 #### 2. As a first-time visitor, I want to learn things I didn't know about Runescape.
 
 When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learnt something by the time they have finished the Quiz.
 
+![User Story 2 Screenshot](https://i.ibb.co/y58B3zM/user-story-2.jpg)
+
 #### 3. As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
 
 There is an Instructions page I have built for this purpose. The Instructions page gives the user step by step instructions on how to play and what the functions of the App do including the Leaderboard. 
+
+![User Story 3 Screenshot](https://i.ibb.co/9H2vXjF/user-story-3.jpg)
+![User Story 3-2 Screenshot](https://i.ibb.co/Nr0k6S1/user-story-3-2.jpg)
 
 #### 4. As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
 
 When the user lands on the homepage they are faced with a beautiful runescape art work along with the black and yellow Runescape theme. I chose the "Rakkas" font as I feel it is a good suit for the Runescape font the game uses.
 
+![User Story 4 Screenshot](https://i.ibb.co/ftt7VQv/user-story-4.jpg)
+
 #### 5. As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
 
 The Runescape Quiz will let you know when you have a got a question right and when you have a got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red upon selection.
 
-
+![User Story 5 Screenshot](https://i.ibb.co/rQ72Ty8/user-story-5.jpg)
 
 ### Known Bugs and Fixes
 
