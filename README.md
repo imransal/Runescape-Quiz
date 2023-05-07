@@ -243,7 +243,18 @@ Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially g
 ### Leaderboard Page
 
 ![Leaderboard Page Errors](https://i.ibb.co/v4D5Mg9/leaderboard-html-errors.jpg)
-![Leaderboard Page Errors Resolved]()
+![Leaderboard Page Errors Resolved](https://i.ibb.co/MR0YnjK/leaderboard-html-errors-resolved.jpg)
+
+### Instructions Page
+
+![Instructions Page Errors](https://i.ibb.co/J529BxM/instructions-html-errors.jpg)
+![Instructions Page Errors Resolved](https://i.ibb.co/H7j9qkf/instructions-html-errors-resolved.jpg)
+
+### End Page 
+
+![End Page Errors](https://i.ibb.co/18tNYqP/end-html-errors.jpg)
+![End Page Errors Resolved](https://i.ibb.co/X2rv95L/end-html-errors-resolved.jpg)
+
 
 ## Deployment
 
