@@ -299,3 +299,11 @@ Forking a GitHub repository allows you to make a copy of the original repository
 
 I would like to thank my course mentor Harry Dhillon and my course tutor Nigel Edwards for their support and guidance throughout this project.
 
+I want to take this opportunity to express my sincere gratitude to you for taking the time to read my Runescape Quiz - Milestone Project II README. This project has been an exciting journey for me, and I am pleased to have had the chance to share it with you.
+
+Creating this project has been an opportunity for me to build on my knowledge of HTML, CSS, and JavaScript. The project also gave me a chance to take a deep dive into the world of Runescape, a game that I have a personal connection with.
+
+I hope you enjoyed reading my README and that you found it informative. Your feedback is valuable to me, and I would be delighted to hear your thoughts on the project.
+
+Once again, thank you for your time, and I hope you have a great day!
+
