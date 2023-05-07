@@ -1,6 +1,6 @@
-# Runescape Quiz  - Milestone Project I
+# Runescape Quiz  - Milestone Project II
 
-![Runescape Quiz Homepage Screenshot](https://i.ibb.co/rQ72Ty8/user-story-5.jpg)
+![Runescape Quiz Homepage Screenshot](https://i.ibb.co/Rzs816N/runescape-quiz-responsive.jpg)
 
 [View Live Project Website](https://imransal.github.io/RunescapeQuiz/)
 
