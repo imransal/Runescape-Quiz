@@ -102,10 +102,10 @@ To keep the quiz easy to navigate for users, the website will be divided into mu
 
 Here is a link to the Wireframes I designed.
 
-- [Homepage](https://ibb.co/Jyk3WKb)
-- [Quiz Page](https://ibb.co/QfCd3w7)
-- [Instructions Page](https://ibb.co/M690QrS)
-- [Leaderboard](https://ibb.co/hYtRsnb)
+- ![Homepage](https://i.ibb.co/4YN1w7D/Homepage.png)
+- ![Quiz Page](https://i.ibb.co/0cFtRbp/Quiz-Page.png)
+- ![Instructions Page](https://i.ibb.co/WtsJjZ5/Instructions-Page.png)
+- ![Leaderboard](https://i.ibb.co/wpryTB1/Leaderboard.png)
 
 ### Homepage Differences 
 
@@ -156,9 +156,7 @@ For future features, I want to consider adding a hint system to assist users in 
  - [CodeAnywhere](https://app.codeanywhere.com/)
     - Used as the development environment.
  - [Photoshop](https://www.adobe.com/uk/products/photoshop.html)
-   - Used to edit images and documents.
- - [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word)
-   - Used to create user story testing documentation.
+   - Used to edit images and user story annotations.
  - [Google Developer Tools](https://developer.chrome.com/docs/devtools/)
     - Used for testing changes throughout the project, finding bugs, and testing responsiveness for different size devices.
  - [Youtube](https://www.youtube.com)
@@ -212,6 +210,8 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 ![User Story 5 Screenshot](https://i.ibb.co/rQ72Ty8/user-story-5.jpg)
 
 ### Known Bugs and Fixes
+
+I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
 
 ## W3C Validation
 
