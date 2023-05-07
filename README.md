@@ -233,6 +233,17 @@ Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially g
 ### Homepage
 
 ![Homepage Errors](https://i.ibb.co/61RZz06/index-html-errors.jpg)
+![Homepage Errors Resolved](https://i.ibb.co/YWMWjh9/index-html-errors-resolved.jpg)
+
+### Quiz Page
+
+![Quiz Page Errors](https://i.ibb.co/BsXZWbr/quiz-html-errors.jpg)
+![Quiz Page Errors Resolved](https://i.ibb.co/GF9zShP/quiz-html-errors-resolved.jpg)
+
+### Leaderboard Page
+
+![Leaderboard Page Errors](https://i.ibb.co/v4D5Mg9/leaderboard-html-errors.jpg)
+![Leaderboard Page Errors Resolved]()
 
 ## Deployment
 
