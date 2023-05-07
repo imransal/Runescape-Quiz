@@ -36,11 +36,11 @@ To help with design, I took inspiration from the Runescape website and theme.
 
 The planning of the project is broken into 5 planes,
 
- - The Strategy Plane
- - The Scope Plane
- - The Structure Plane
- - The Skeleton Plane
- - The Surface Plane
+ - [The Strategy Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#strategy-plane)
+ - [The Scope Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#scope-plane)
+ - [The Structure Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#structure-plane)
+ - [The Skeleton Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#skeleton-plane)
+ - [The Surface Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#surface-plane)
  
 
 ## Strategy Plane
