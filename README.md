@@ -226,7 +226,7 @@ In addition, I used Jshint to verify that there were no errors present in any of
 ![JSHint Errors](https://i.ibb.co/gm6y9wp/jshint-errors.jpg)
 ![JSHint Errors Resolved](https://i.ibb.co/98kmmYd/jshint-resolved.jpg)
 
-## W3C Validation
+## W3C HTML Validation
 
 Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially generated some errors but ultimately passed:
 
@@ -255,6 +255,10 @@ Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially g
 ![End Page Errors](https://i.ibb.co/18tNYqP/end-html-errors.jpg)
 ![End Page Errors Resolved](https://i.ibb.co/X2rv95L/end-html-errors-resolved.jpg)
 
+## W3C CSS Validation
+
+![CSS Stylesheet Errors](https://i.ibb.co/ph1Hz2X/css-errors.jpg)
+![CSS Stylesheet Errors Resolved](https://i.ibb.co/sv402hR/css-errors-resolved.jpg)
 
 ## Deployment
 

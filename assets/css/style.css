@@ -122,7 +122,6 @@ i {
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
-    transform: transform 100ms;
 }
 
 .answer-prefix {
