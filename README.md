@@ -213,7 +213,6 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 
 ### Known Bugs and Fixes
 
-
 ## W3C Validation
 
 ## Deployment
