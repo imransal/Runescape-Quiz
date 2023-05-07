@@ -148,12 +148,12 @@ For future features, I want to consider adding a hint system to assist users in 
  - [Balsamiq](https://balsamiq.com/)
     - Used to build wireframes.
  - [Img BB](https://imgbb.com/)
-    - Used to upload wireframe images for viewable links.
+    - Used to upload images for pageload speed and for viewable links.
  - [GitHub](https://github.com/)
-    - Used to save the and store all the code.
+    - Used to save and store all the code.
  - [Git](https://git-scm.com/)
     - Used to commit and push all my code to GitHub by using the terminal in Gitpod.
- - [Gitpod](https://www.gitpod.io/)
+ - [CodeAnywhere](https://app.codeanywhere.com/)
     - Used as the development environment.
  - [Photoshop](https://www.adobe.com/uk/products/photoshop.html)
    - Used to edit images and documents.
@@ -182,11 +182,15 @@ In this section, I will test the user stories from the User Experience Design se
 
 #### As a first-time visitor, I want to be able to navigate my way easily throughout the website.
 
-
+1. As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand and navigate.
 
 #### As a first-time visitor, I want to learn things I didn't know about Runescape.
 
+2. When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learnt something by the time they have finished the Quiz.
+
 #### As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
+
+3. There is an Instructions page I have built for this purpose. On the Instructions page it gives the user step by step instructions on how to play and what the functions of the App do including the Leaderboard. 
 
 #### As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
 

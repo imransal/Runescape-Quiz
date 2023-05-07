@@ -267,35 +267,15 @@ input {
     color: goldenrod;
 }
 
-#instructions-container {
-    width: 35%;
-    margin: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-.instruction-li {
-    padding-left: 1rem;
+.instructions-box {
+    padding: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
     #instructions-list {
         font-family: 'Raleway', cursive;
-        font-size: 1rem;
-        margin: 0;
-        text-align: left;
-        padding: 1.2rem;
-        width: 100%;
-   }
-}  
-
-@media only screen and (max-width: 768px) {
-    #instructions-container {
-        font-family: 'Raleway', cursive;
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin: auto;
         text-align: left;
-        padding: 1.2rem;
-        width: 100%;
    }
-}  
+}   
