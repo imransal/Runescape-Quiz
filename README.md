@@ -41,7 +41,6 @@ The planning of the project is broken into 5 planes,
  - [The Structure Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#structure-plane)
  - [The Skeleton Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#skeleton-plane)
  - [The Surface Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#surface-plane)
- 
 
 ## Strategy Plane
 
@@ -53,7 +52,6 @@ The objective of this project is to deliver a visually appealing and easy to use
  - I want the Quiz App to be responsive accross different resolutions for all devices.
 
 After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to myfriends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
-
 
 ### User Stories
 
@@ -68,7 +66,6 @@ After establishing the user experience strategy, the next vital step is to adopt
 #### Returning Visitor Goals
 
  - As a returning visitor, I want my scores to be saved and track my score on a leaderboard.
- 
 
 #### Types of expected visitor goals
 
@@ -220,9 +217,22 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 
 I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
 
+Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to centre.
 
+## Jshint Validation
+
+In addition, I used Jshint to verify that there were no errors present in any of the JavaScript code and all errors were corrected.
+
+![JSHint Errors](https://i.ibb.co/gm6y9wp/jshint-errors.jpg)
+![JSHint Errors Resolved](https://i.ibb.co/98kmmYd/jshint-resolved.jpg)
 
 ## W3C Validation
+
+Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially generated some errors but ultimately passed:
+
+### Homepage
+
+![Homepage Errors](https://i.ibb.co/61RZz06/index-html-errors.jpg)
 
 ## Deployment
 

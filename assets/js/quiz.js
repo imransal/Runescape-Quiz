@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // -----------------Start Global Var----------------- //
 const question = document.querySelector(`#question`);
 const answerText = Array.from(document.querySelectorAll(`.answer-text`));
