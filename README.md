@@ -180,21 +180,29 @@ In this section, I will test the user stories from the User Experience Design se
 
 ### User Story Testing
 
-#### As a first-time visitor, I want to be able to navigate my way easily throughout the website.
+#### 1. As a first-time visitor, I want to be able to navigate my way easily throughout the website.
 
-1. As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand and navigate.
+![User Story 1 Screenshot](https://i.ibb.co/9HQ230k/user-story-1.jpg)
 
-#### As a first-time visitor, I want to learn things I didn't know about Runescape.
+As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand and navigate.
 
-2. When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learnt something by the time they have finished the Quiz.
+#### 2. As a first-time visitor, I want to learn things I didn't know about Runescape.
 
-#### As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
+When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learnt something by the time they have finished the Quiz.
 
-3. There is an Instructions page I have built for this purpose. On the Instructions page it gives the user step by step instructions on how to play and what the functions of the App do including the Leaderboard. 
+#### 3. As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
 
-#### As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
+There is an Instructions page I have built for this purpose. The Instructions page gives the user step by step instructions on how to play and what the functions of the App do including the Leaderboard. 
 
-#### As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
+#### 4. As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
+
+When the user lands on the homepage they are faced with a beautiful runescape art work along with the black and yellow Runescape theme. I chose the "Rakkas" font as I feel it is a good suit for the Runescape font the game uses.
+
+#### 5. As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
+
+The Runescape Quiz will let you know when you have a got a question right and when you have a got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red upon selection.
+
+
 
 ### Known Bugs and Fixes
 
