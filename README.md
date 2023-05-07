@@ -220,6 +220,8 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 
 I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
 
+
+
 ## W3C Validation
 
 ## Deployment
@@ -251,17 +253,13 @@ Forking a GitHub repository allows you to make a copy of the original repository
 
 ## Credits
 
-### Code
-
  - [Bootstrap](https://getbootstrap.com/)
-   - Used as the framework for the project.
+ - [Stack Overflow](https://stackoverflow.com/)
+ - [Youtube](https://www.youtube.com/)
+ - [Vanilla Javascript Project Tutorial used to increment score, question count and save high scores](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+ - [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 ## Thank You
 
 I would like to thank my course mentor Harry Dhillon and my course tutor Nigel Edwards for their support and guidance throughout this project.
 
-I would like to thank anyone who has made it to the bottom of this very long README file. I have learned a lot during the course of this project and I will be learning and implementing a lot more going forwards on this journey to becoming a full-stack developer.
-
-I hope you have a wonderful day or night wherever, whoever you are! 
-
-Happy Coding :-)
