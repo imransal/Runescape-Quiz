@@ -4,6 +4,15 @@ body {
     color: #ffffff;
 }
 
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: 'Rakkas', cursive;
+
+}
+
+p {
+    font-family: 'Raleway', cursive;
+}
+
 /* ------------------------Start Nav Bar------------------------ */
 
 .navbar {
@@ -187,6 +196,24 @@ i {
     
 }
 
+@media only screen and (max-width: 768px) {
+    .quiz-score {
+        float: right;
+        color: goldenrod;
+        font-size: 1.3rem;
+        padding: 1rem;
+   }
+}  
+
+@media only screen and (max-width: 768px) {
+    #progress-text {
+        float: left;
+        color: goldenrod;
+        font-size: 1.3rem;
+        padding: 1rem;
+   }
+}  
+
 /* ------------------------Start End Page CSS------------------------ */
 
 
@@ -205,7 +232,7 @@ input {
 
 .leaderboardList {
     list-style: none;
-    font-family: 'Rakkas', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 1.5rem;
     margin: 5px;
@@ -233,7 +260,7 @@ input {
 /* ------------------------Instructions Page------------------------ */
 
 #instructions-list {
-    font-family: 'Rakkas', sans-serif;
+    font-family: 'Raleway', cursive;
     text-align: left ;
     font-size: 1.5rem;
     margin: auto;
