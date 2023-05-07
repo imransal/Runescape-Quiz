@@ -102,10 +102,17 @@ To keep the quiz easy to navigate for users, the website will be divided into mu
 
 Here is a link to the Wireframes I designed.
 
-- ![Homepage](https://i.ibb.co/4YN1w7D/Homepage.png)
-- ![Quiz Page](https://i.ibb.co/0cFtRbp/Quiz-Page.png)
-- ![Instructions Page](https://i.ibb.co/WtsJjZ5/Instructions-Page.png)
-- ![Leaderboard](https://i.ibb.co/wpryTB1/Leaderboard.png)
+### Homepage 
+![Homepage](https://i.ibb.co/4YN1w7D/Homepage.png)
+
+### Quiz Page
+![Quiz Page](https://i.ibb.co/0cFtRbp/Quiz-Page.png)
+
+### Instructions Page
+![Instructions Page](https://i.ibb.co/WtsJjZ5/Instructions-Page.png)
+
+### Leaderboard
+![Leaderboard](https://i.ibb.co/wpryTB1/Leaderboard.png)
 
 ### Homepage Differences 
 
