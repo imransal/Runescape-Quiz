@@ -34,6 +34,8 @@ I document the steps I took to plan and create this website as well as where I g
 
 To help with design, I took inspiration from the Runescape website and theme. 
 
+[Old School Runescape Website](https://oldschool.runescape.com/)
+
 The planning of the project is broken into 5 planes,
 
  - [The Strategy Plane](https://github.com/imransal/Runescape-Quiz/blob/main/README.md#strategy-plane)
