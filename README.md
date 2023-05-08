@@ -46,14 +46,14 @@ The planning of the project is broken into 5 planes,
 
 ## Strategy Plane
 
-The objective of this project is to deliver a visually appealing and easy to use Quiz App to the end users, that is fun & interactive with the ability to track their high scores and a leaderboard.
+The objective of this project is to deliver a visually appealing and easy to use Quiz App to the end users, that is fun & interactive with the ability to track their high scores with a leaderboard.
 
 ### Creator Goals
 
- - I want the Quiz App to have a similar color scheme and typography, and to do so I have chosen the font-family: 'Rakkas' using google fonts.
+ - I want the Quiz App to have a similar color scheme and typography as Runescape, and to do so I have chosen the font-family: 'Rakkas' using google fonts.
  - I want the Quiz App to be responsive accross different resolutions for all devices.
 
-After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to myfriends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
+After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to my friends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
 
 ### User Stories
 
@@ -63,11 +63,11 @@ After establishing the user experience strategy, the next vital step is to adopt
  - As a first-time visitor, I want to learn things I didn't know about Runescape.
  - As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
  - As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
- - As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
+ - As a first-time visitor, I want to know if I was right or wrong when I selected my answer to a question on the App.
 
 #### Returning Visitor Goals
 
- - As a returning visitor, I want my scores to be saved and track my score on a leaderboard.
+ - As a returning visitor, I want my scores to be saved and I want to be able to track my score on a leaderboard.
 
 #### Types of expected visitor goals
 
@@ -75,7 +75,7 @@ After establishing the user experience strategy, the next vital step is to adopt
 
 - Someone who may be interested in playing Runescape.
 
-I decided to create a Runescape quiz application due to my personal experience with the game and time as a player. I have a genuine passion for this game, which has given me valuable insight into what users might be seeking when using my quiz application. These insights have been essential in shaping my User Stories.
+I decided to create a Runescape quiz application due to my personal experience with the game and time as a player, which has given me valuable insight into what users might be seeking when using my quiz application. These insights have been essential in shaping my User Stories.
 
 My quiz application is designed to provide an enjoyable and straightforward experience for users while offering them valuable information about the game. I aim to present the questions in a clear and concise manner, without overwhelming the users with too much information at once.
 
@@ -85,17 +85,17 @@ Since a significant portion of the target audience is likely to access the quiz 
 
 To achieve the desired user and business goals for my Runescape quiz app, the following features will be included:
 
-- Simple homepage will be designed with a clean and straightforward layout that includes a navigation menu at the top with a Start Game and a Leaderboard button.
-- Quiz page with include a navigation bar, a start game button, a question count and score tally and quiz questions and answer buttons with a quit game button.
-- End of quiz page will have a form to submit high scores and control buttons.
+- Simple homepage will be designed with a clean and straightforward layout that includes a navigation menu, hero image, start quiz and leaderboard buttons.
+- Quiz page will include a navigation bar, a start quiz button, a question count and score tally and quiz questions and answer buttons with a quit game button.
+- End of quiz page will have a form to submit high scores to the leaderboard and control buttons.
 - Instructions page will have a navigation bar and instructions on how to play the quiz.
 - Leaderboard page will have a navigation bar and a list of the top 5 high scores.
  
 ## Structure Plane
 
-For the Runescape quiz app, the design will focus on a theme that is relatable to the Runescape game. The color scheme will feature the classic yellow and black of the Runescape logo, with white used as a contrasting color. The font selection will include a modern and easy-to-read font, along with the bold and fun fonts for H1 headers.
+For the Runescape quiz app, the design will focus on a theme that is relatable to the Runescape game. The color scheme will feature the classic yellow and black of the Runescape logo, with white used as a contrasting color. The font selection will be a easy-to-read font and fun for H1 headers.
 
-To keep the quiz easy to navigate for users, the website will be divided into multiple pages, including a rules page, a game page, and a high scores page. Each page will feature a responsive navbar, with the relevant content centered below. The quiz itself will have a responsive layout with a question, and four answer buttons to makie it straight forward for the user. The final quiz page will have navigation buttons to let the user know how to move on from the page.
+To keep the quiz easy to navigate for users, the website will be divided into multiple pages, including a instructions page, a quiz page, and a leaderboard page. Each page will feature a responsive navbar, with the relevant content centered below. The quiz itself will have a responsive layout with a question, and four answer buttons to make it straight forward for the user. The final quiz page will have navigation buttons to let the user know how to move on from the page.
 
 ## Skeleton Plane
 
@@ -115,7 +115,7 @@ Here is a link to the Wireframes I designed.
 
 ### Homepage Differences 
 
-The Homepage wireframe design was met, the only difference here is that instead of using a gameplay screenshot, a game art was used.
+The Homepage wireframe design was met, the only difference here is that instead of using a gameplay screenshot, I used a Runescape fan art..
 
 ### Quiz Page Differences
 
@@ -125,17 +125,17 @@ The Quiz Page wireframe design was met, the only difference is that the question
 
 ### Leaderboard Page Differences
 
-The Leaderboard Page wireframe design was met, the only differences is that there is no border around the leaderboard and I added buttons to start the quiz or return to the homepage.
+The Leaderboard Page wireframe design was met, the differences is that there is no border around the leaderboard and I added buttons to start the quiz or return to the homepage.
 
 ## Surface Plane 
 
 **Project Features**
 
-The Runescape Javascript quiz project includes a responsive navigation bar, a dark theme with a hero image, and feedback colors for selected answers. Users can save their high score with a name, which is stored in local storage and can be viewed on the High Score page. The score updates with every answer selected, with correct answers awarding 100 points and a maximum of 1000 available at the end. The navigation bar is present across all pages except for the Quiz page and changes to a burger bar menu at 992px.
+The Runescape Javascript quiz project includes a responsive navigation bar, a dark theme with a hero image, and feedback colors for selected answers. Users can save their high score with a name, which is stored in local storage and can be viewed on the High Score page. The score updates with every answer selected, with correct answers awarding 100 points and a maximum of 1000 available at the end. The navigation bar is present across all pages except for the Quiz page and changes to a burger bar menu for smaller devices.
 
 ### Features to upgrade this project in the future
 
-For future features, I want to consider adding a hint system to assist users in answering questions. I want to consider implementing social media sharing options to allow users to share their scores with friends and on different platforms and also a timer for each question.
+For future features, I want to consider adding a shuffle function that will change the order of the answer options, I want to consider a hint system to assist users in answering questions. I want to consider implementing social media sharing options to allow users to share their scores with friends and on different platforms and also a timer for each question.
 
 ## Technologies Used
 
@@ -186,32 +186,32 @@ In this section, I will test the user stories from the User Experience Design se
 
 #### 1. As a first-time visitor, I want to be able to navigate my way easily throughout the website.
 
-As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand and navigate.
+As soon as you enter the home page of the Quiz App you are presented with a hero image that lets you know what the Quiz is about and two buttons making it very simple for the user to understand how and where to navigate.
 
 ![User Story 1 Screenshot](https://i.ibb.co/9HQ230k/user-story-1.jpg)
 
 #### 2. As a first-time visitor, I want to learn things I didn't know about Runescape.
 
-When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learnt something by the time they have finished the Quiz.
+When the user starts the Quiz they are presented with a series of 10 Questions, some of which are entry level if you have played the Runescape game before and some Questions are very particular and difficult, so there is no doubt all types of users will have learned something new by the time they have finished the Quiz.
 
 ![User Story 2 Screenshot](https://i.ibb.co/y58B3zM/user-story-2.jpg)
 
 #### 3. As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
 
-There is an Instructions page I have built for this purpose. The Instructions page gives the user step by step instructions on how to play and what the functions of the App do including the Leaderboard. 
+When the user enters the Instructions page there is a step by step instructions list on how to play and what the functions of the App do, including the Leaderboard. 
 
 ![User Story 3 Screenshot](https://i.ibb.co/9H2vXjF/user-story-3.jpg)
 ![User Story 3-2 Screenshot](https://i.ibb.co/Nr0k6S1/user-story-3-2.jpg)
 
 #### 4. As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
 
-When the user lands on the homepage they are faced with a beautiful runescape art work along with the black and yellow Runescape theme. I chose the "Rakkas" font as I feel it is a good suit for the Runescape font the game uses.
+When the user lands on the homepage they are faced with a beautiful runescape art work along with the black and yellow Runescape theme. I chose the "Rakkas" font as it is a good suit for the Runescape theme.
 
 ![User Story 4 Screenshot](https://i.ibb.co/ftt7VQv/user-story-4.jpg)
 
-#### 5. As a first-time visitor, I want to be know if I was right or wrong when I selected my answer to a question on the App.
+#### 5. As a first-time visitor, I want to be know if I was right or wrong when I selected my answer.
 
-The Runescape Quiz will let you know when you have a got a question right and when you have a got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red upon selection.
+The Runescape Quiz will let you know when you have a got a question right and when you have a got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red.
 
 ![User Story 5 Screenshot](https://i.ibb.co/rQ72Ty8/user-story-5.jpg)
 
@@ -219,7 +219,7 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 
 I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
 
-Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to centre.
+Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to align.
 
 ## Jshint Validation
 
@@ -230,7 +230,7 @@ In addition, I used Jshint to verify that there were no errors present in any of
 
 ## W3C HTML Validation
 
-Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially generated some errors but ultimately passed:
+Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially generated some errors which I then resolved:
 
 ### Homepage
 
@@ -296,6 +296,7 @@ Forking a GitHub repository allows you to make a copy of the original repository
  - [Youtube](https://www.youtube.com/)
  - [Vanilla Javascript Project Tutorial used to increment score, question count and save high scores](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
  - [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
+ - [Runescape Reddit used for hero image](https://www.reddit.com/r/runescape/comments/2zge7d/looking_for_high_quality_runescape_wallpapers/)
 
 ## Thank You
 
