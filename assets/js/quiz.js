@@ -119,31 +119,36 @@ let startQuiz = () => {
 let getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem("recentScore", score);
-
         return window.location.assign(`end-page.html`);
     }
-// -----------------Question Counter----------------- //
-
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${maxQuestions}`;
-
-// -----------------Keeps current question & randomizes questions----------------- //
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
-// -----------------Choices----------------- //
-
-    answerText.forEach((choice) => {
-        const number = choice.dataset.number;
-        choice.innerText = currentQuestion["choice" + number];
+    const choices = [currentQuestion.choice1, currentQuestion.choice2, currentQuestion.choice3, currentQuestion.choice4];
+    shuffle(choices);
+    answerText.forEach((choice, index) => {
+        choice.innerText = choices[index];
+        if (choices[index] === currentQuestion['choice' + (currentQuestion.answer)]) {
+            choice.dataset.number = currentQuestion.answer;
+        } else {
+            choice.dataset.number = index + 1;
+        }
     });
 
     availableQuestions.splice(questionsIndex, 1);
-
     acceptingAnswer = true;
 };
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
 
 // -----------------End Track Answers & End Quiz----------------- //
 

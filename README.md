@@ -200,7 +200,7 @@ When the user starts the Quiz they are presented with a series of 10 Questions, 
 
 When the user enters the Instructions page there is a step by step instructions list on how to play and what the functions of the App do, including the Leaderboard. 
 
-![User Story 3 Screenshot](https://i.ibb.co/9H2vXjF/user-story-3.jpg)
+![User Story 3 Screenshot](https://i.ibb.co/nbyMLzf/user-story-3.jpg)
 ![User Story 3-2 Screenshot](https://i.ibb.co/Nr0k6S1/user-story-3-2.jpg)
 
 #### 4. As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
@@ -218,6 +218,10 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 ### Known Bugs and Fixes
 
 I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
+
+Could not figure out a way to randomize the order in which the choices are shown to the user. I was able to get the answers to randomise but then the answers were not linked to the correct containers. I tested on and off for a while and then I took to Youtube and Stackoverflow. I had to modify the getNewQuestion function to shuffle the answer choices array and then assign the shuffled choices to the choice boxes.
+
+I had the event listener function to use dataset.number value of the text content instead of the selected choice. This was changed to selectedChoice.dataset.number and that allowed for the answer choices to be shuffled and the correct answer will be linked to the correct choice box no matter what position it is in.
 
 Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to align.
 
