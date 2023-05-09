@@ -2,7 +2,7 @@
 
 ![Runescape Quiz Homepage Screenshot](https://i.ibb.co/4tqc0MR/runescape-quiz-responsive.jpg)
 
-[View Live Project Website](https://imransal.github.io/RunescapeQuiz/)
+[View Live Project Website](https://imransal.github.io/Runescape-Quiz/)
 
 ## **Contents**
 
