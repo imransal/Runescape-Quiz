@@ -225,6 +225,8 @@ I had the event listener function to use dataset.number value of the text conten
 
 Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to align.
 
+After deploying the website, I noticed that the live site had no styling and all buttons and links were malfunctioning. Therefore, all links including the stylesheet link and navigation links were adjusted, and the issues were fixed and retested.
+
 ## Jshint Validation
 
 In addition, I used Jshint to verify that there were no errors present in any of the JavaScript code and all errors were corrected.
