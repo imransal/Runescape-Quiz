@@ -46,20 +46,20 @@ The planning of the project is broken into 5 planes,
 
 ## Strategy Plane
 
-The objective of this project is to deliver a visually appealing and easy to use Quiz App to the end users, that is fun & interactive with the ability to track their high scores with a leaderboard.
+The objective of this project is to deliver a visually appealing and easy-to-use Quiz App to the end users, that is fun & interactive with the ability to track their high scores with a leaderboard.
 
 ### Creator Goals
 
- - I want the Quiz App to have a similar color scheme and typography as Runescape, and to do so I have chosen the font-family: 'Rakkas' using google fonts.
- - I want the Quiz App to be responsive accross different resolutions for all devices.
+ - I want the Quiz App to have a similar color scheme and typography as Runescape, and to do so I have chosen the font family: 'Rakkas' using google fonts.
+ - I want the Quiz App to be responsive across different resolutions for all devices.
 
-After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to my friends who have played Runescape to gain their perspective. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
+After establishing the user experience strategy, the next vital step is to adopt a user-centric approach and speak to my friends who have played Runescape to gain their perspectives. This approach will enable me to guarantee that their interaction with the game is pleasant and satisfying.
 
 ### User Stories
 
 #### First Time Visitor Goals
 
- - As a first-time visitor, I want to be able to navigate my way easily throughout the website.
+ - As a first-time visitor, I want to be able to navigate my way easily through the website.
  - As a first-time visitor, I want to learn things I didn't know about Runescape.
  - As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
  - As a first-time visitor, I want to see something that reminds me of Runescape, and an attractive design.
@@ -77,7 +77,7 @@ After establishing the user experience strategy, the next vital step is to adopt
 
 I decided to create a Runescape quiz application due to my personal experience with the game and time as a player, which has given me valuable insight into what users might be seeking when using my quiz application. These insights have been essential in shaping my User Stories.
 
-My quiz application is designed to provide an enjoyable and straightforward experience for users while offering them valuable information about the game. I aim to present the questions in a clear and concise manner, without overwhelming the users with too much information at once.
+My quiz application is designed to provide an enjoyable and straightforward experience for users while offering them valuable information about the game. I aim to present the questions clearly and concisely, without overwhelming the users with too much information at once.
 
 Since a significant portion of the target audience is likely to access the quiz application using their mobile devices, it is crucial to create a responsive design. This will ensure that the quiz runs smoothly on all devices, providing a seamless experience for all users.
 
@@ -99,7 +99,7 @@ To keep the quiz easy to navigate for users, the website will be divided into mu
 
 ## Skeleton Plane
 
-Here is a link to the Wireframes I designed.
+Here are links to the Wireframes I designed.
 
 ### Homepage 
 ![Homepage](https://i.ibb.co/4YN1w7D/Homepage.png)
@@ -115,17 +115,17 @@ Here is a link to the Wireframes I designed.
 
 ### Homepage Differences 
 
-The Homepage wireframe design was met, the only difference here is that instead of using a gameplay screenshot, I used a Runescape fan art..
+The Homepage wireframe design was met, the only difference here is that instead of using a gameplay screenshot, I used Runescape fan art.
 
 ### Quiz Page Differences
 
-The Quiz Page wireframe design was met, the only difference is that the question does not have a border and instead a h2 header in its own div.
+The Quiz Page wireframe design was met, the only difference is that the question does not have a border and instead a h2 header in its div.
 
 ### Instructions Page Differences
 
 ### Leaderboard Page Differences
 
-The Leaderboard Page wireframe design was met, the differences is that there is no border around the leaderboard and I added buttons to start the quiz or return to the homepage.
+The Leaderboard Page wireframe design was met, the difference is that there is no border around the leaderboard and I added buttons to start the quiz or return to the homepage.
 
 ## Surface Plane 
 
@@ -198,7 +198,7 @@ When the user starts the Quiz they are presented with a series of 10 Questions, 
 
 #### 3. As a first-time visitor, I want to see some instructions on how to play and how to see the leaderboard.
 
-When the user enters the Instructions page there is a step by step instructions list on how to play and what the functions of the App do, including the Leaderboard. 
+When the user enters the Instructions page there is a step-by-step instructions list on how to play and what the functions of the App do, including the Leaderboard.
 
 ![User Story 3 Screenshot](https://i.ibb.co/nbyMLzf/user-story-3.jpg)
 ![User Story 3-2 Screenshot](https://i.ibb.co/Nr0k6S1/user-story-3-2.jpg)
@@ -211,7 +211,7 @@ When the user lands on the homepage they are faced with a beautiful runescape ar
 
 #### 5. As a first-time visitor, I want to be know if I was right or wrong when I selected my answer.
 
-The Runescape Quiz will let you know when you have a got a question right and when you have a got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red.
+The Runescape Quiz will let you know when you have got a question right and when you have got a question wrong. The correct answer will turn green upon selection, whereas the incorrect answer will turn red.
 
 ![User Story 5 Screenshot](https://i.ibb.co/rQ72Ty8/user-story-5.jpg)
 
@@ -219,11 +219,11 @@ The Runescape Quiz will let you know when you have a got a question right and wh
 
 I used Google Chrome Developer Tools throughout the whole project to help me debug any styling issues and alignment. Google Chrome Developer Tools allows you to see changes you made immediately which has been extremely helpful. 
 
-Could not figure out a way to randomize the order in which the choices are shown to the user. I was able to get the answers to randomise but then the answers were not linked to the correct containers. I tested on and off for a while and then I took to Youtube and Stackoverflow. I had to modify the getNewQuestion function to shuffle the answer choices array and then assign the shuffled choices to the choice boxes.
+Could not figure out a way to randomize the order in which the choices are shown to the user. I was able to get the answers to randomize but then the answers were not linked to the correct containers. I tested on and off for a while and then I took to Youtube and Stackoverflow. I had to modify the getNewQuestion function to shuffle the answer choices array and then assign the shuffled choices to the choice boxes.
 
-I had the event listener function to use dataset.number value of the text content instead of the selected choice. This was changed to selectedChoice.dataset.number and that allowed for the answer choices to be shuffled and the correct answer will be linked to the correct choice box no matter what position it is in.
+I had the event listener function set to use the dataset.number value of the text content instead of the selected choice. This was changed to selectedChoice.dataset.number and that allowed for the answer choices to be shuffled and the correct answer will be linked to the correct choice box no matter what position it is in.
 
-Instructions page was not responding well with mobile devices. Fixed by placing content in container and assigning bootstrap styles to align.
+The instructions page was not responding well with mobile devices. Fixed by placing content in the container and assigning bootstrap styles to align.
 
 After deploying the website, I noticed that the live site had no styling and all buttons and links were malfunctioning. Therefore, all links including the stylesheet link and navigation links were adjusted, and the issues were fixed and retested.
 
@@ -236,7 +236,7 @@ In addition, I used Jshint to verify that there were no errors present in any of
 
 ## W3C HTML Validation
 
-Besides Jshint, I employed Jigsaw to validate my HTML and CSS, which initially generated some errors which I then resolved:
+Besides Jshint, I used Jigsaw to validate my HTML and CSS, which initially generated some errors which I then resolved:
 
 ### Homepage
 
