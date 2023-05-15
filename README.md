@@ -137,6 +137,10 @@ The Runescape Javascript quiz project includes a responsive navigation bar, a da
 
 For future features, I want to consider adding a shuffle function that will change the order of the answer options, I want to consider a hint system to assist users in answering questions. I want to consider implementing social media sharing options to allow users to share their scores with friends and on different platforms and also a timer for each question.
 
+### Upgrade features implemented
+
+I was able to randomize each answer container every time the quiz is loaded. I included this in known bugs and fixes also: "I had the event listener function set to use the dataset.number value of the text content instead of the selected choice. This was changed to selectedChoice.dataset.number and that allowed for the answer choices to be shuffled and the correct answer will be linked to the correct choice box no matter what position it is in."
+
 ## Technologies Used
 
  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
