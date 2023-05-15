@@ -102,14 +102,19 @@ To keep the quiz easy to navigate for users, the website will be divided into mu
 Here are links to the Wireframes I designed.
 
 ### Homepage 
+
+The homepage includes a static navbar at the top of the screen, a simple hero image with a screenshot of the Runescape Game and easy navigation buttons that lead the user to start the quiz or visit the leaderboard.
 ![Homepage](https://i.ibb.co/4YN1w7D/Homepage.png)
 
+The quiz page includes a question and score tracker that lets the user know what question they are on and how many there are in total. The score tracker lets the user know what their current score is. The quiz page consists of the question underneath the trackers and four clickable answers below it. 
 ### Quiz Page
 ![Quiz Page](https://i.ibb.co/0cFtRbp/Quiz-Page.png)
 
+The instructions page will tell the user how to operate the quiz in a step by step order.
 ### Instructions Page
 ![Instructions Page](https://i.ibb.co/WtsJjZ5/Instructions-Page.png)
 
+The leaderboard page allows users to save their high score and view it in an order that is sorted from highest to lowest.
 ### Leaderboard
 ![Leaderboard](https://i.ibb.co/wpryTB1/Leaderboard.png)
 
