@@ -242,7 +242,7 @@ In addition, I used Jshint to verify that there were no errors present in any of
 
 I tested the accessibility of the Runescape Quiz with Lighthouse
 
-![Lighthouse Accessibility](https://ibb.co/YpPBV6q)
+![Lighthouse Accessibility](https://i.ibb.co/wMBh2Tx/Runescape-Quiz-Accessibiilty.png)
 
 ## W3C HTML Validation
 
