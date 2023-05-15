@@ -238,6 +238,12 @@ In addition, I used Jshint to verify that there were no errors present in any of
 ![JSHint Errors](https://i.ibb.co/gm6y9wp/jshint-errors.jpg)
 ![JSHint Errors Resolved](https://i.ibb.co/98kmmYd/jshint-resolved.jpg)
 
+## Accessibility Test With Lighthouse
+
+I tested the accessibility of the Runescape Quiz with Lighthouse
+
+![Lighthouse Accessibility](https://ibb.co/YpPBV6q)
+
 ## W3C HTML Validation
 
 Besides Jshint, I used Jigsaw to validate my HTML and CSS, which initially generated some errors which I then resolved:
