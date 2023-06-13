@@ -236,6 +236,16 @@ The instructions page was not responding well with mobile devices. Fixed by plac
 
 After deploying the website, I noticed that the live site had no styling and all buttons and links were malfunctioning. Therefore, all links including the stylesheet link and navigation links were adjusted, and the issues were fixed and retested.
 
+## Manual Testing
+
+In order to thoroughly test the quizzes functionality, I personally played through the quiz to ensure a positive user experience and to confirm that everything was functioning as intended. During my testing, I discovered a specific issue related to the event listener function in JavaScript.
+
+Originally, the event listener was set to retrieve the `dataset.number` value from the text content. However, I recognized that this approach needed improvement. To address this, I updated the event listener to utilize `selectedChoice.dataset.number` instead.
+
+By adding the feature to randomize answer choices in the quizzes, it significantly improves the learning experience. This change prevents users from simply memorizing the answer positions and encourages them to actually learn the correct answer.
+
+By conducting thorough testing and implementing this modification, I was able to enhance the quizzes functionality and provide users with an improved user experience.
+
 ## Jshint Validation
 
 In addition, I used Jshint to verify that there were no errors present in any of the JavaScript code and all errors were corrected.
