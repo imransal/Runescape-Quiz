@@ -246,6 +246,13 @@ By adding the feature to randomize answer choices in the quizzes, it significant
 
 By conducting thorough testing and implementing this modification, I was able to enhance the quizzes functionality and provide users with an improved user experience.
 
+## Automated Testing
+
+In addition to manual testing, automated testing using tools like Jest can greatly enhance the testing process for the quiz functionality. Jest is a popular testing framework for JavaScript that allows you to write automated tests to validate the behavior and correctness of your code.
+
+By utilizing Jest, you can write unit tests to verify the functionality of individual components and ensure that the event listener functions as intended. These tests can simulate user interactions, such as clicks on answer choices, and assert that the expected behavior occurs. For example, you can verify that selectedChoice.dataset.number is correctly retrieved and matches the expected value.
+
+
 ## Jshint Validation
 
 In addition, I used Jshint to verify that there were no errors present in any of the JavaScript code and all errors were corrected.
